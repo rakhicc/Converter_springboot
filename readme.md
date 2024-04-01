@@ -37,10 +37,10 @@ Maven > Update Project...
 
 - Right click on the springBootApplication class App.java and then choose Run as > Java application
 - The application will be started on port 8123
-- hit the endpoint [a link](localhost:8123/upload) by uploading file (the text content in that file will be taken as input)
+- hit the endpoint "localhost:8123/upload" by uploading file (the text content in that file will be taken as input) using postman
 - the content in the file will be converted to XML and CSV formats and saved to small.xml and small.csv files in c drive Temp folder.
 
 #### Step 3: Limitations of the code
 
 - the string regex pattern is used to separate content to different sentence and words. Libraries for Natural Language Processing is not used. Because of that some words for example Mr. is not parsed correctly.
-- the characters and words from other language are not encoded while writing to xml or CSV.
+- the characters and words from other language are not encoded while writing to xml or CSV.special characters are not encoded as expected.
