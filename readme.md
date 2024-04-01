@@ -39,6 +39,7 @@ Maven > Update Project...
 - The application will be started on port 8123
 - hit the endpoint "localhost:8123/upload" by uploading file (the text content in that file will be taken as input) using postman
 - the content in the file will be converted to XML and CSV formats and saved to small.xml and small.csv files in c drive Temp folder.
+- the xml and csv file generated for small.in file as input is available in the location along with readme.md file.
 
 #### Step 3: Limitations of the code
 
