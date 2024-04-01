@@ -45,3 +45,4 @@ Maven > Update Project...
 
 - the string regex pattern is used to separate content to different sentence and words. Libraries for Natural Language Processing is not used. Because of that some words for example Mr. is not parsed correctly.
 - the characters and words from other language are not encoded while writing to xml or CSV.special characters are not encoded as expected.
+- current implementation is throwing SizeLimitExceededException for file size greater than 10MB.
